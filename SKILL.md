@@ -11,8 +11,10 @@ description: |
   (5) /lessons search <关键词> - 跨项目搜索经验
   (6) /lessons status - 查看经验库统计和项目状态
   (7) /lessons add - 手动添加一条经验
+  (8) /lessons export [path] - 导出经验库到 zip 文件
+  (9) /lessons import <zip_path> - 从 zip 文件导入经验库
 
-  关键词: lessons, 经验, 踩坑, pitfall, 决策, decision, ADR, 模式, pattern, 跨项目
+  关键词: lessons, 经验, 踩坑, pitfall, 决策, decision, ADR, 模式, pattern, 跨项目, 导出, 导入, export, import
 ---
 
 # Lessons - 跨项目经验积累系统
@@ -39,6 +41,8 @@ description: |
 | `/lessons search <kw>` | Grep 搜索 `~/.claude/lessons/` |
 | `/lessons status` | 读取 `_index.md` + 项目 `.lessons.json` |
 | `/lessons add` | 交互式添加经验 |
+| `/lessons export [path]` | 读取 [commands/export.md](commands/export.md) |
+| `/lessons import <zip>` | 读取 [commands/import.md](commands/import.md) |
 
 ## 经验分层
 
